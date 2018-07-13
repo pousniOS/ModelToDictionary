@@ -82,16 +82,81 @@
         for(int i = 0;i < propsCount; i++){
             objc_property_t  prop = props[i];
             NSString *propName = [NSString stringWithUTF8String:property_getName(prop)];
-            
-            NSString *attributes =[NSString stringWithUTF8String:property_getAttributes(prop)];
-            NSLog(@"%@",attributes);
-            NSLog(@"%@",attributes);
+            [propertyArray addObject:propName];
 
             
-            [propertyArray addObject:propName];
+            /**获取属性类型**/
+            NSString *property_data_type = nil;
+            const char * property_attr = property_getAttributes(prop);
+            //If the property is a type of Objective-C class, then substring the variable of `property_attr` in order to getting its real type
+            if (property_attr[1] == '@') {
+                char * occurs1 =  strchr(property_attr, '@');
+                char * occurs2 =  strrchr(occurs1, '"');
+                char dest_str[40]= {0};
+                strncpy(dest_str, occurs1, occurs2 - occurs1);
+                char * realType = (char *)malloc(sizeof(char) * 50);
+                int i = 0, j = 0, len = (int)strlen(dest_str);
+                for (; i < len; i++) {
+                    if ((dest_str[i] >= 'a' && dest_str[i] <= 'z') || (dest_str[i] >= 'A' && dest_str[i] <= 'Z')) {
+                        realType[j++] = dest_str[i];
+                    }
+                }
+                property_data_type = [NSString stringWithFormat:@"%s", realType];
+                free(realType);
+            }else {
+                char * realType = [self getPropertyRealType:property_attr];
+                property_data_type = [NSString stringWithFormat:@"%s", realType];
+            }
+            NSLog(@"%@",property_data_type);
+            
+            
         }
         free(props);
         return propertyArray;
     }
+}
+- (char *)getPropertyRealType:(const char *)property_attr {
+    char * type;
+    char t = property_attr[1];
+    if (strcmp(&t, @encode(char)) == 0) {
+        type = "char";
+    } else if (strcmp(&t, @encode(int)) == 0) {
+        type = "int";
+    } else if (strcmp(&t, @encode(short)) == 0) {
+        type = "short";
+    } else if (strcmp(&t, @encode(long)) == 0) {
+        type = "long";
+    } else if (strcmp(&t, @encode(long long)) == 0) {
+        type = "long long";
+    } else if (strcmp(&t, @encode(unsigned char)) == 0) {
+        type = "unsigned char";
+    } else if (strcmp(&t, @encode(unsigned int)) == 0) {
+        type = "unsigned int";
+    } else if (strcmp(&t, @encode(unsigned short)) == 0) {
+        type = "unsigned short";
+    } else if (strcmp(&t, @encode(unsigned long)) == 0) {
+        type = "unsigned long";
+    } else if (strcmp(&t, @encode(unsigned long long)) == 0) {
+        type = "unsigned long long";
+    } else if (strcmp(&t, @encode(float)) == 0) {
+        type = "float";
+    } else if (strcmp(&t, @encode(double)) == 0) {
+        type = "double";
+    } else if (strcmp(&t, @encode(_Bool)) == 0 || strcmp(&t, @encode(bool)) == 0) {
+        type = "BOOL";
+    } else if (strcmp(&t, @encode(void)) == 0) {
+        type = "void";
+    } else if (strcmp(&t, @encode(char *)) == 0) {
+        type = "char *";
+    } else if (strcmp(&t, @encode(id)) == 0) {
+        type = "id";
+    } else if (strcmp(&t, @encode(Class)) == 0) {
+        type = "Class";
+    } else if (strcmp(&t, @encode(SEL)) == 0) {
+        type = "SEL";
+    } else {
+        type = "";
+    }
+    return type;
 }
 @end

@@ -16,6 +16,12 @@
 		5C65324D20F88D2D00389100 /* ModelToDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65324C20F88D2D00389100 /* ModelToDictionaryTests.m */; };
 		5C65325820F88D2D00389100 /* ModelToDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65325720F88D2D00389100 /* ModelToDictionaryUITests.m */; };
 		5C65326A20F8929600389100 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65326920F8929600389100 /* NSObject+Dictionary.m */; };
+		5C65326D20F89F2500389100 /* TestJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C65326C20F89F2500389100 /* TestJson.json */; };
+		5C65327920F89F8700389100 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327120F89F8600389100 /* Goods.m */; };
+		5C65327A20F89F8700389100 /* SalesOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327320F89F8600389100 /* SalesOrder.m */; };
+		5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327420F89F8600389100 /* SalesOrderParts.m */; };
+		5C65327C20F89F8700389100 /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327520F89F8600389100 /* TEST.m */; };
+		5C65327D20F89F8700389100 /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327620F89F8600389100 /* SalesRefund.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +60,17 @@
 		5C65325920F88D2D00389100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C65326820F8929600389100 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
 		5C65326920F8929600389100 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		5C65326C20F89F2500389100 /* TestJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestJson.json; sourceTree = "<group>"; };
+		5C65326F20F89F8600389100 /* SalesOrderParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrderParts.h; sourceTree = "<group>"; };
+		5C65327020F89F8600389100 /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		5C65327120F89F8600389100 /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		5C65327220F89F8600389100 /* SalesRefund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesRefund.h; sourceTree = "<group>"; };
+		5C65327320F89F8600389100 /* SalesOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrder.m; sourceTree = "<group>"; };
+		5C65327420F89F8600389100 /* SalesOrderParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrderParts.m; sourceTree = "<group>"; };
+		5C65327520F89F8600389100 /* TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
+		5C65327620F89F8600389100 /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
+		5C65327720F89F8600389100 /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
+		5C65327820F89F8600389100 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +121,8 @@
 		5C65323220F88D2A00389100 /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				5C65326E20F89F8600389100 /* Model */,
+				5C65326C20F89F2500389100 /* TestJson.json */,
 				5C65323320F88D2A00389100 /* AppDelegate.h */,
 				5C65323420F88D2A00389100 /* AppDelegate.m */,
 				5C65323620F88D2A00389100 /* ViewController.h */,
@@ -135,6 +154,23 @@
 				5C65325920F88D2D00389100 /* Info.plist */,
 			);
 			path = ModelToDictionaryUITests;
+			sourceTree = "<group>";
+		};
+		5C65326E20F89F8600389100 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5C65326F20F89F8600389100 /* SalesOrderParts.h */,
+				5C65327420F89F8600389100 /* SalesOrderParts.m */,
+				5C65327820F89F8600389100 /* Goods.h */,
+				5C65327120F89F8600389100 /* Goods.m */,
+				5C65327220F89F8600389100 /* SalesRefund.h */,
+				5C65327620F89F8600389100 /* SalesRefund.m */,
+				5C65327720F89F8600389100 /* SalesOrder.h */,
+				5C65327320F89F8600389100 /* SalesOrder.m */,
+				5C65327020F89F8600389100 /* TEST.h */,
+				5C65327520F89F8600389100 /* TEST.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,6 +279,7 @@
 				5C65324020F88D2D00389100 /* LaunchScreen.storyboard in Resources */,
 				5C65323D20F88D2D00389100 /* Assets.xcassets in Resources */,
 				5C65323B20F88D2A00389100 /* Main.storyboard in Resources */,
+				5C65326D20F89F2500389100 /* TestJson.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +305,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C65323820F88D2A00389100 /* ViewController.m in Sources */,
+				5C65327C20F89F8700389100 /* TEST.m in Sources */,
 				5C65326A20F8929600389100 /* NSObject+Dictionary.m in Sources */,
+				5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */,
+				5C65327920F89F8700389100 /* Goods.m in Sources */,
 				5C65324320F88D2D00389100 /* main.m in Sources */,
 				5C65323520F88D2A00389100 /* AppDelegate.m in Sources */,
+				5C65327A20F89F8700389100 /* SalesOrder.m in Sources */,
+				5C65327D20F89F8700389100 /* SalesRefund.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
