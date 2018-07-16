@@ -4,4 +4,6 @@
 @interface TEST:NSObject
 @property(nonatomic,retain)SalesRefund  *salesRefund;
 @property(nonatomic,retain)SalesOrder  *salesOrder;
+
+@property(nonatomic,assign)double testDouble;
 @end

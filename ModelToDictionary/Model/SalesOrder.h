@@ -16,4 +16,5 @@
 @property(nonatomic,copy)NSString  *warehouseName;
 @property(nonatomic,copy)NSString  *orgName;
 @property(nonatomic,copy)NSString  *priceSum;
+@property(nonatomic,retain)NSNumber  *number;
 @end

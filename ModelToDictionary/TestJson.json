@@ -9,6 +9,7 @@
     "orgId" : "A",
     "orgName" : "xxx有限公司",
     "priceSum" : "3.000000",
+    "number" : 4534,
     "refundType" : "1",
     "requireArriveDate" : "1525593xxx",
     "salesOrderParts" : [

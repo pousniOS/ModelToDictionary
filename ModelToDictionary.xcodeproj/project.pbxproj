@@ -22,6 +22,7 @@
 		5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327420F89F8600389100 /* SalesOrderParts.m */; };
 		5C65327C20F89F8700389100 /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327520F89F8600389100 /* TEST.m */; };
 		5C65327D20F89F8700389100 /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327620F89F8600389100 /* SalesRefund.m */; };
+		5CCC380120FC96CF00B70A1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC380020FC96CE00B70A1A /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		5C65327620F89F8600389100 /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
 		5C65327720F89F8600389100 /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
 		5C65327820F89F8600389100 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		5CCC380020FC96CE00B70A1A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		5C65322720F88D2A00389100 = {
 			isa = PBXGroup;
 			children = (
+				5CCC380020FC96CE00B70A1A /* README.md */,
 				5C65323220F88D2A00389100 /* ModelToDictionary */,
 				5C65324B20F88D2D00389100 /* ModelToDictionaryTests */,
 				5C65325620F88D2D00389100 /* ModelToDictionaryUITests */,
@@ -278,6 +281,7 @@
 			files = (
 				5C65324020F88D2D00389100 /* LaunchScreen.storyboard in Resources */,
 				5C65323D20F88D2D00389100 /* Assets.xcassets in Resources */,
+				5CCC380120FC96CF00B70A1A /* README.md in Resources */,
 				5C65323B20F88D2A00389100 /* Main.storyboard in Resources */,
 				5C65326D20F89F2500389100 /* TestJson.json in Resources */,
 			);
