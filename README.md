@@ -1,10 +1,10 @@
 # ModelToDictionary
 **前言**
-在项目开发中，将Model对象数据转换成NSDictionary对象(或包含NSDictionary对象的数组)，然后通过接口提交给服务器是开发中频繁需要做的事情，然而手动的去拼写NSDictionary对象既麻烦又容易出错。所以我就写了这样的一个功能，可以将Model对象数据转换成NSDictionary对象。拼且可以重新给的方法来从命名生成的字典的key以及可以手动的屏蔽掉一些不需要换成NSDictionary对象的属性，大家来看看怎么使用吧。
+
+在项目开发中，将Model对象数据转换成NSDictionary对象(或包含NSDictionary对象的数组)，然后通过接口提交给服务器是开发中频繁需要做的事情，然而手动的去拼写NSDictionary对象既麻烦又容易出错。所以我就写了这样的一个功能，可以将Model对象数据转换成NSDictionary对象。并且可以重写Model类方法来重命名生成的字典的key以及可以屏蔽掉一些在生成NSDictionary对象不需要的键值对。
 
 ---
-1.一般使用：
-只需在项目里引入NSObject+Dictionary类别,然后调用“-(NSDictionary *)toDictionary”方法例如：
+1.只需在项目里引入NSObject+Dictionary类别,然后调用“-(NSDictionary *)toDictionary”方法例如：
 ```
 //给test对象赋值（注意填写正确的文件路径）
 NSString *str=[NSString stringWithContentsOfFile:@"/Users/POSUN/Documents/ModelToDictionary/ModelToDictionary/TestJson.json" encoding:NSUTF8StringEncoding error:nil];
@@ -203,7 +203,7 @@ testDouble = 0;
 ```
 可以看到原本key为salesOrder的被修改成了SO。
 ---
-2.生成NSdictionary时去掉不需要的键值对,需要在对应的Model类重写“-(NSSet*)YYMTD_UnconversionProperty”例如：
+3.生成NSdictionary时去掉不需要的键值对,需要在对应的Model类重写“-(NSSet*)YYMTD_UnconversionProperty”例如：
 ```
 #import "TEST.h"
 @implementation TEST
@@ -271,5 +271,4 @@ testDouble = 0;
 ```
 可以看到生成的NSDictionary里salesRefund没去掉了。
 
-
-
+**项目地址：https://github.com/pousniOS/ModelToDictionary**
