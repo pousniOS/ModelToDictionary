@@ -269,6 +269,6 @@ warehouseName = "xxx\U5e93";
 testDouble = 0;
 }
 ```
-可以看到生成的NSDictionary里salesRefund没去掉了。
+可以看到生成的NSDictionary里salesRefund被去掉了。
 
 **项目地址：https://github.com/pousniOS/ModelToDictionary**
