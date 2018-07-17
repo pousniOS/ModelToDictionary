@@ -42,8 +42,6 @@ static NSString *const type_NSNumber=@"NSNumber";
 
 static NSString *const protocol_NSCopying=@"NSCopying";
 
-
-
 static NSDictionary *typeDic=nil;
 @implementation NSObject (Dictionary)
 
@@ -166,7 +164,8 @@ static NSDictionary *typeDic=nil;
         char * realType = (char *)malloc(sizeof(char) * 50);
         int i = 0, j = 0, len = (int)strlen(dest_str);
         for (; i < len; i++) {
-            if ((dest_str[i] >= 'a' && dest_str[i] <= 'z') || (dest_str[i] >= 'A' && dest_str[i] <= 'Z')) {
+            if ((dest_str[i] >= 'a' && dest_str[i] <= 'z') ||
+                (dest_str[i] >= 'A' && dest_str[i] <= 'Z')) {
                 realType[j++] = dest_str[i];
             }
         }

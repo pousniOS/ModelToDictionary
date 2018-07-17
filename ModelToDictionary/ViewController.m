@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
     //给test对象赋值（注意填写正确的文件路径）
     NSString *str=[NSString stringWithContentsOfFile:@"/Users/POSUN/Documents/ModelToDictionary/ModelToDictionary/TestJson.json" encoding:NSUTF8StringEncoding error:nil];
     
@@ -33,14 +32,6 @@
     //将test对象转换传NSDictionary对象
     NSDictionary *testDic=[test toDictionary];
     NSLog(@"%@",testDic);
-
-    
-    
-    
-    
-//    test.testDouble=8989.090;
-//    NSLog(@"%@___%@",test,[test copy]);
-
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (void)didReceiveMemoryWarning {
