@@ -22,6 +22,7 @@
 		5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327420F89F8600389100 /* SalesOrderParts.m */; };
 		5C65327C20F89F8700389100 /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327520F89F8600389100 /* TEST.m */; };
 		5C65327D20F89F8700389100 /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327620F89F8600389100 /* SalesRefund.m */; };
+		5C7AB3232105C3C500035235 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C7AB3222105C3C500035235 /* NSObject+Dictionary.m */; };
 		5CCC380120FC96CF00B70A1A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CCC380020FC96CE00B70A1A /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +73,8 @@
 		5C65327620F89F8600389100 /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
 		5C65327720F89F8600389100 /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
 		5C65327820F89F8600389100 /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		5C7AB3212105C3C500035235 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		5C7AB3222105C3C500035235 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		5CCC380020FC96CE00B70A1A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +127,7 @@
 		5C65323220F88D2A00389100 /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
+				5C7AB3202105C3C500035235 /* ModelToDictionary */,
 				5C65326E20F89F8600389100 /* Model */,
 				5C65326C20F89F2500389100 /* TestJson.json */,
 				5C65323320F88D2A00389100 /* AppDelegate.h */,
@@ -174,6 +178,15 @@
 				5C65327520F89F8600389100 /* TEST.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5C7AB3202105C3C500035235 /* ModelToDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				5C7AB3212105C3C500035235 /* NSObject+Dictionary.h */,
+				5C7AB3222105C3C500035235 /* NSObject+Dictionary.m */,
+			);
+			path = ModelToDictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +324,7 @@
 				5C65323820F88D2A00389100 /* ViewController.m in Sources */,
 				5C65327C20F89F8700389100 /* TEST.m in Sources */,
 				5C65326A20F8929600389100 /* NSObject+Dictionary.m in Sources */,
+				5C7AB3232105C3C500035235 /* NSObject+Dictionary.m in Sources */,
 				5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */,
 				5C65327920F89F8700389100 /* Goods.m in Sources */,
 				5C65324320F88D2D00389100 /* main.m in Sources */,
