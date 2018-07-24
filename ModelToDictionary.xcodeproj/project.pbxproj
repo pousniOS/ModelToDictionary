@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5CCC380020FC96CE00B70A1A /* README.md */,
-				5C65323220F88D2A00389100 /* ModelToDic */,
+				5C65323220F88D2A00389100 /* ModelToDictionary */,
 				5C65324B20F88D2D00389100 /* ModelToDictionaryTests */,
 				5C65325620F88D2D00389100 /* ModelToDictionaryUITests */,
 				5C65323120F88D2A00389100 /* Products */,
@@ -121,10 +121,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5C65323220F88D2A00389100 /* ModelToDic */ = {
+		5C65323220F88D2A00389100 /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				5C7AB3202105C3C500035235 /* ModelToDictionary */,
+				5C7AB3202105C3C500035235 /* Source */,
 				5C65326E20F89F8600389100 /* Model */,
 				5C65326C20F89F2500389100 /* TestJson.json */,
 				5C65323320F88D2A00389100 /* AppDelegate.h */,
@@ -137,7 +137,7 @@
 				5C65324120F88D2D00389100 /* Info.plist */,
 				5C65324220F88D2D00389100 /* main.m */,
 			);
-			path = ModelToDic;
+			path = ModelToDictionary;
 			sourceTree = "<group>";
 		};
 		5C65324B20F88D2D00389100 /* ModelToDictionaryTests */ = {
@@ -175,13 +175,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5C7AB3202105C3C500035235 /* ModelToDictionary */ = {
+		5C7AB3202105C3C500035235 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				5C7AB3212105C3C500035235 /* NSObject+Dictionary.h */,
 				5C7AB3222105C3C500035235 /* NSObject+Dictionary.m */,
 			);
-			path = ModelToDictionary;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
