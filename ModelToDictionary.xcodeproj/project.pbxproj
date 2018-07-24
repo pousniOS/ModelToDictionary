@@ -7,49 +7,92 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5CC3BCD92106CFBE00F5687E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCD82106CFBE00F5687E /* main.m */; };
-		5CC3BCFB2106D0E100F5687E /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF32106D0E100F5687E /* Goods.m */; };
-		5CC3BCFC2106D0E100F5687E /* SalesOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF52106D0E100F5687E /* SalesOrder.m */; };
-		5CC3BCFD2106D0E100F5687E /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF62106D0E100F5687E /* SalesOrderParts.m */; };
-		5CC3BCFE2106D0E100F5687E /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF72106D0E100F5687E /* TEST.m */; };
-		5CC3BCFF2106D0E100F5687E /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF82106D0E100F5687E /* SalesRefund.m */; };
-		5CC3BD032106D20200F5687E /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */; };
+		5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8B2106FAE500F5687E /* AppDelegate.m */; };
+		5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8E2106FAE500F5687E /* ViewController.m */; };
+		5CC3BD922106FAE500F5687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD902106FAE500F5687E /* Main.storyboard */; };
+		5CC3BD942106FAE600F5687E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD932106FAE600F5687E /* Assets.xcassets */; };
+		5CC3BD972106FAE600F5687E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD952106FAE600F5687E /* LaunchScreen.storyboard */; };
+		5CC3BD9A2106FAE600F5687E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD992106FAE600F5687E /* main.m */; };
+		5CC3BDA42106FAE600F5687E /* ModelToDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDA32106FAE600F5687E /* ModelToDictionaryTests.m */; };
+		5CC3BDAF2106FAE600F5687E /* ModelToDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDAE2106FAE600F5687E /* ModelToDictionaryUITests.m */; };
+		5CC3BDC22106FB6300F5687E /* TestJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BDBC2106FB6200F5687E /* TestJson.json */; };
+		5CC3BDC32106FB6300F5687E /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDBF2106FB6200F5687E /* NSObject+Dictionary.m */; };
+		5CC3BDC42106FB6300F5687E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BDC02106FB6200F5687E /* README.md */; };
+		5CC3BDC52106FB6300F5687E /* ModelToDictionary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BDC12106FB6200F5687E /* ModelToDictionary.podspec */; };
+		5CC3BDD12106FB6D00F5687E /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDC92106FB6D00F5687E /* Goods.m */; };
+		5CC3BDD22106FB6D00F5687E /* SalesOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCB2106FB6D00F5687E /* SalesOrder.m */; };
+		5CC3BDD32106FB6D00F5687E /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCC2106FB6D00F5687E /* SalesOrderParts.m */; };
+		5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCD2106FB6D00F5687E /* TEST.m */; };
+		5CC3BDD52106FB6D00F5687E /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		5CC3BCD32106CFBE00F5687E /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
+/* Begin PBXContainerItemProxy section */
+		5CC3BDA02106FAE600F5687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC3BD7F2106FAE500F5687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC3BD862106FAE500F5687E;
+			remoteInfo = ModelToDictionary;
 		};
-/* End PBXCopyFilesBuildPhase section */
+		5CC3BDAB2106FAE600F5687E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC3BD7F2106FAE500F5687E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC3BD862106FAE500F5687E;
+			remoteInfo = ModelToDictionary;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5CC3BCD52106CFBE00F5687E /* ModelToDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ModelToDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
-		5CC3BCD82106CFBE00F5687E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CC3BCE22106D00B00F5687E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5CC3BCE32106D00B00F5687E /* ModelToDictionary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelToDictionary.podspec; sourceTree = "<group>"; };
-		5CC3BCE42106D06E00F5687E /* TestJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestJson.json; sourceTree = "<group>"; };
-		5CC3BCF12106D0E100F5687E /* SalesOrderParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrderParts.h; sourceTree = "<group>"; };
-		5CC3BCF22106D0E100F5687E /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
-		5CC3BCF32106D0E100F5687E /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
-		5CC3BCF42106D0E100F5687E /* SalesRefund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesRefund.h; sourceTree = "<group>"; };
-		5CC3BCF52106D0E100F5687E /* SalesOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrder.m; sourceTree = "<group>"; };
-		5CC3BCF62106D0E100F5687E /* SalesOrderParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrderParts.m; sourceTree = "<group>"; };
-		5CC3BCF72106D0E100F5687E /* TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
-		5CC3BCF82106D0E100F5687E /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
-		5CC3BCF92106D0E100F5687E /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
-		5CC3BCFA2106D0E100F5687E /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
-		5CC3BD012106D20200F5687E /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
-		5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		5CC3BD872106FAE500F5687E /* ModelToDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelToDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3BD8A2106FAE500F5687E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5CC3BD8B2106FAE500F5687E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5CC3BD8D2106FAE500F5687E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5CC3BD8E2106FAE500F5687E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5CC3BD912106FAE500F5687E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5CC3BD932106FAE600F5687E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5CC3BD962106FAE600F5687E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5CC3BD982106FAE600F5687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3BD992106FAE600F5687E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC3BD9F2106FAE600F5687E /* ModelToDictionaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelToDictionaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3BDA32106FAE600F5687E /* ModelToDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelToDictionaryTests.m; sourceTree = "<group>"; };
+		5CC3BDA52106FAE600F5687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3BDAA2106FAE600F5687E /* ModelToDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelToDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC3BDAE2106FAE600F5687E /* ModelToDictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelToDictionaryUITests.m; sourceTree = "<group>"; };
+		5CC3BDB02106FAE600F5687E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CC3BDBC2106FB6200F5687E /* TestJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestJson.json; sourceTree = "<group>"; };
+		5CC3BDBE2106FB6200F5687E /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		5CC3BDBF2106FB6200F5687E /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
+		5CC3BDC02106FB6200F5687E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5CC3BDC12106FB6200F5687E /* ModelToDictionary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelToDictionary.podspec; sourceTree = "<group>"; };
+		5CC3BDC72106FB6D00F5687E /* SalesOrderParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrderParts.h; sourceTree = "<group>"; };
+		5CC3BDC82106FB6D00F5687E /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
+		5CC3BDC92106FB6D00F5687E /* Goods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Goods.m; sourceTree = "<group>"; };
+		5CC3BDCA2106FB6D00F5687E /* SalesRefund.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesRefund.h; sourceTree = "<group>"; };
+		5CC3BDCB2106FB6D00F5687E /* SalesOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrder.m; sourceTree = "<group>"; };
+		5CC3BDCC2106FB6D00F5687E /* SalesOrderParts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesOrderParts.m; sourceTree = "<group>"; };
+		5CC3BDCD2106FB6D00F5687E /* TEST.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TEST.m; sourceTree = "<group>"; };
+		5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
+		5CC3BDCF2106FB6D00F5687E /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
+		5CC3BDD02106FB6D00F5687E /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5CC3BCD22106CFBE00F5687E /* Frameworks */ = {
+		5CC3BD842106FAE500F5687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BD9C2106FAE600F5687E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BDA72106FAE600F5687E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -59,71 +102,101 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5CC3BCCC2106CFBE00F5687E = {
+		5CC3BD7E2106FAE500F5687E = {
 			isa = PBXGroup;
 			children = (
-				5CC3BD002106D20200F5687E /* Source */,
-				5CC3BCF02106D0E100F5687E /* Model */,
-				5CC3BCE42106D06E00F5687E /* TestJson.json */,
-				5CC3BCE32106D00B00F5687E /* ModelToDictionary.podspec */,
-				5CC3BCE22106D00B00F5687E /* README.md */,
-				5CC3BCD72106CFBE00F5687E /* ModelToDictionary */,
-				5CC3BCD62106CFBE00F5687E /* Products */,
+				5CC3BDC12106FB6200F5687E /* ModelToDictionary.podspec */,
+				5CC3BDC02106FB6200F5687E /* README.md */,
+				5CC3BDBC2106FB6200F5687E /* TestJson.json */,
+				5CC3BDBD2106FB6200F5687E /* Source */,
+				5CC3BD892106FAE500F5687E /* ModelToDictionary */,
+				5CC3BDA22106FAE600F5687E /* ModelToDictionaryTests */,
+				5CC3BDAD2106FAE600F5687E /* ModelToDictionaryUITests */,
+				5CC3BD882106FAE500F5687E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5CC3BCD62106CFBE00F5687E /* Products */ = {
+		5CC3BD882106FAE500F5687E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3BCD52106CFBE00F5687E /* ModelToDictionary */,
+				5CC3BD872106FAE500F5687E /* ModelToDictionary.app */,
+				5CC3BD9F2106FAE600F5687E /* ModelToDictionaryTests.xctest */,
+				5CC3BDAA2106FAE600F5687E /* ModelToDictionaryUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5CC3BCD72106CFBE00F5687E /* ModelToDictionary */ = {
+		5CC3BD892106FAE500F5687E /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3BCD82106CFBE00F5687E /* main.m */,
+				5CC3BDC62106FB6D00F5687E /* Model */,
+				5CC3BD8A2106FAE500F5687E /* AppDelegate.h */,
+				5CC3BD8B2106FAE500F5687E /* AppDelegate.m */,
+				5CC3BD8D2106FAE500F5687E /* ViewController.h */,
+				5CC3BD8E2106FAE500F5687E /* ViewController.m */,
+				5CC3BD902106FAE500F5687E /* Main.storyboard */,
+				5CC3BD932106FAE600F5687E /* Assets.xcassets */,
+				5CC3BD952106FAE600F5687E /* LaunchScreen.storyboard */,
+				5CC3BD982106FAE600F5687E /* Info.plist */,
+				5CC3BD992106FAE600F5687E /* main.m */,
 			);
 			path = ModelToDictionary;
 			sourceTree = "<group>";
 		};
-		5CC3BCF02106D0E100F5687E /* Model */ = {
+		5CC3BDA22106FAE600F5687E /* ModelToDictionaryTests */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3BCF12106D0E100F5687E /* SalesOrderParts.h */,
-				5CC3BCF22106D0E100F5687E /* TEST.h */,
-				5CC3BCF32106D0E100F5687E /* Goods.m */,
-				5CC3BCF42106D0E100F5687E /* SalesRefund.h */,
-				5CC3BCF52106D0E100F5687E /* SalesOrder.m */,
-				5CC3BCF62106D0E100F5687E /* SalesOrderParts.m */,
-				5CC3BCF72106D0E100F5687E /* TEST.m */,
-				5CC3BCF82106D0E100F5687E /* SalesRefund.m */,
-				5CC3BCF92106D0E100F5687E /* SalesOrder.h */,
-				5CC3BCFA2106D0E100F5687E /* Goods.h */,
+				5CC3BDA32106FAE600F5687E /* ModelToDictionaryTests.m */,
+				5CC3BDA52106FAE600F5687E /* Info.plist */,
 			);
-			path = Model;
+			path = ModelToDictionaryTests;
 			sourceTree = "<group>";
 		};
-		5CC3BD002106D20200F5687E /* Source */ = {
+		5CC3BDAD2106FAE600F5687E /* ModelToDictionaryUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3BD012106D20200F5687E /* NSObject+Dictionary.h */,
-				5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */,
+				5CC3BDAE2106FAE600F5687E /* ModelToDictionaryUITests.m */,
+				5CC3BDB02106FAE600F5687E /* Info.plist */,
+			);
+			path = ModelToDictionaryUITests;
+			sourceTree = "<group>";
+		};
+		5CC3BDBD2106FB6200F5687E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3BDBE2106FB6200F5687E /* NSObject+Dictionary.h */,
+				5CC3BDBF2106FB6200F5687E /* NSObject+Dictionary.m */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		5CC3BDC62106FB6D00F5687E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3BDC72106FB6D00F5687E /* SalesOrderParts.h */,
+				5CC3BDC82106FB6D00F5687E /* TEST.h */,
+				5CC3BDC92106FB6D00F5687E /* Goods.m */,
+				5CC3BDCA2106FB6D00F5687E /* SalesRefund.h */,
+				5CC3BDCB2106FB6D00F5687E /* SalesOrder.m */,
+				5CC3BDCC2106FB6D00F5687E /* SalesOrderParts.m */,
+				5CC3BDCD2106FB6D00F5687E /* TEST.m */,
+				5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */,
+				5CC3BDCF2106FB6D00F5687E /* SalesOrder.h */,
+				5CC3BDD02106FB6D00F5687E /* Goods.h */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5CC3BCD42106CFBE00F5687E /* ModelToDictionary */ = {
+		5CC3BD862106FAE500F5687E /* ModelToDictionary */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5CC3BCDC2106CFBE00F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionary" */;
+			buildConfigurationList = 5CC3BDB32106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionary" */;
 			buildPhases = (
-				5CC3BCD12106CFBE00F5687E /* Sources */,
-				5CC3BCD22106CFBE00F5687E /* Frameworks */,
-				5CC3BCD32106CFBE00F5687E /* CopyFiles */,
+				5CC3BD832106FAE500F5687E /* Sources */,
+				5CC3BD842106FAE500F5687E /* Frameworks */,
+				5CC3BD852106FAE500F5687E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -131,59 +204,186 @@
 			);
 			name = ModelToDictionary;
 			productName = ModelToDictionary;
-			productReference = 5CC3BCD52106CFBE00F5687E /* ModelToDictionary */;
-			productType = "com.apple.product-type.tool";
+			productReference = 5CC3BD872106FAE500F5687E /* ModelToDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC3BD9E2106FAE600F5687E /* ModelToDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC3BDB62106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionaryTests" */;
+			buildPhases = (
+				5CC3BD9B2106FAE600F5687E /* Sources */,
+				5CC3BD9C2106FAE600F5687E /* Frameworks */,
+				5CC3BD9D2106FAE600F5687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC3BDA12106FAE600F5687E /* PBXTargetDependency */,
+			);
+			name = ModelToDictionaryTests;
+			productName = ModelToDictionaryTests;
+			productReference = 5CC3BD9F2106FAE600F5687E /* ModelToDictionaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5CC3BDA92106FAE600F5687E /* ModelToDictionaryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC3BDB92106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionaryUITests" */;
+			buildPhases = (
+				5CC3BDA62106FAE600F5687E /* Sources */,
+				5CC3BDA72106FAE600F5687E /* Frameworks */,
+				5CC3BDA82106FAE600F5687E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC3BDAC2106FAE600F5687E /* PBXTargetDependency */,
+			);
+			name = ModelToDictionaryUITests;
+			productName = ModelToDictionaryUITests;
+			productReference = 5CC3BDAA2106FAE600F5687E /* ModelToDictionaryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5CC3BCCD2106CFBE00F5687E /* Project object */ = {
+		5CC3BD7F2106FAE500F5687E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "POSUN-MAC";
 				TargetAttributes = {
-					5CC3BCD42106CFBE00F5687E = {
+					5CC3BD862106FAE500F5687E = {
 						CreatedOnToolsVersion = 9.4;
+					};
+					5CC3BD9E2106FAE600F5687E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5CC3BD862106FAE500F5687E;
+					};
+					5CC3BDA92106FAE600F5687E = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 5CC3BD862106FAE500F5687E;
 					};
 				};
 			};
-			buildConfigurationList = 5CC3BCD02106CFBE00F5687E /* Build configuration list for PBXProject "ModelToDictionary" */;
+			buildConfigurationList = 5CC3BD822106FAE500F5687E /* Build configuration list for PBXProject "ModelToDictionary" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 5CC3BCCC2106CFBE00F5687E;
-			productRefGroup = 5CC3BCD62106CFBE00F5687E /* Products */;
+			mainGroup = 5CC3BD7E2106FAE500F5687E;
+			productRefGroup = 5CC3BD882106FAE500F5687E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5CC3BCD42106CFBE00F5687E /* ModelToDictionary */,
+				5CC3BD862106FAE500F5687E /* ModelToDictionary */,
+				5CC3BD9E2106FAE600F5687E /* ModelToDictionaryTests */,
+				5CC3BDA92106FAE600F5687E /* ModelToDictionaryUITests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		5CC3BD852106FAE500F5687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3BD972106FAE600F5687E /* LaunchScreen.storyboard in Resources */,
+				5CC3BD942106FAE600F5687E /* Assets.xcassets in Resources */,
+				5CC3BDC42106FB6300F5687E /* README.md in Resources */,
+				5CC3BD922106FAE500F5687E /* Main.storyboard in Resources */,
+				5CC3BDC22106FB6300F5687E /* TestJson.json in Resources */,
+				5CC3BDC52106FB6300F5687E /* ModelToDictionary.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BD9D2106FAE600F5687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BDA82106FAE600F5687E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		5CC3BCD12106CFBE00F5687E /* Sources */ = {
+		5CC3BD832106FAE500F5687E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5CC3BCFB2106D0E100F5687E /* Goods.m in Sources */,
-				5CC3BCFF2106D0E100F5687E /* SalesRefund.m in Sources */,
-				5CC3BCD92106CFBE00F5687E /* main.m in Sources */,
-				5CC3BCFD2106D0E100F5687E /* SalesOrderParts.m in Sources */,
-				5CC3BD032106D20200F5687E /* NSObject+Dictionary.m in Sources */,
-				5CC3BCFC2106D0E100F5687E /* SalesOrder.m in Sources */,
-				5CC3BCFE2106D0E100F5687E /* TEST.m in Sources */,
+				5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */,
+				5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */,
+				5CC3BDC32106FB6300F5687E /* NSObject+Dictionary.m in Sources */,
+				5CC3BDD32106FB6D00F5687E /* SalesOrderParts.m in Sources */,
+				5CC3BDD12106FB6D00F5687E /* Goods.m in Sources */,
+				5CC3BD9A2106FAE600F5687E /* main.m in Sources */,
+				5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */,
+				5CC3BDD22106FB6D00F5687E /* SalesOrder.m in Sources */,
+				5CC3BDD52106FB6D00F5687E /* SalesRefund.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BD9B2106FAE600F5687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3BDA42106FAE600F5687E /* ModelToDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC3BDA62106FAE600F5687E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC3BDAF2106FAE600F5687E /* ModelToDictionaryUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		5CC3BDA12106FAE600F5687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC3BD862106FAE500F5687E /* ModelToDictionary */;
+			targetProxy = 5CC3BDA02106FAE600F5687E /* PBXContainerItemProxy */;
+		};
+		5CC3BDAC2106FAE600F5687E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC3BD862106FAE500F5687E /* ModelToDictionary */;
+			targetProxy = 5CC3BDAB2106FAE600F5687E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5CC3BD902106FAE500F5687E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC3BD912106FAE500F5687E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5CC3BD952106FAE600F5687E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC3BD962106FAE600F5687E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		5CC3BCDA2106CFBE00F5687E /* Debug */ = {
+		5CC3BDB12106FAE600F5687E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -215,7 +415,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -234,14 +434,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		5CC3BCDB2106CFBE00F5687E /* Release */ = {
+		5CC3BDB22106FAE600F5687E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -273,7 +473,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -286,50 +486,155 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		5CC3BCDD2106CFBE00F5687E /* Debug */ = {
+		5CC3BDB42106FAE600F5687E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionary;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		5CC3BCDE2106CFBE00F5687E /* Release */ = {
+		5CC3BDB52106FAE600F5687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionary;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CC3BDB72106FAE600F5687E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModelToDictionary.app/ModelToDictionary";
+			};
+			name = Debug;
+		};
+		5CC3BDB82106FAE600F5687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionaryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModelToDictionary.app/ModelToDictionary";
+			};
+			name = Release;
+		};
+		5CC3BDBA2106FAE600F5687E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionaryUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModelToDictionary;
+			};
+			name = Debug;
+		};
+		5CC3BDBB2106FAE600F5687E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ModelToDictionaryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = yangYue.ModelToDictionaryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ModelToDictionary;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5CC3BCD02106CFBE00F5687E /* Build configuration list for PBXProject "ModelToDictionary" */ = {
+		5CC3BD822106FAE500F5687E /* Build configuration list for PBXProject "ModelToDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CC3BCDA2106CFBE00F5687E /* Debug */,
-				5CC3BCDB2106CFBE00F5687E /* Release */,
+				5CC3BDB12106FAE600F5687E /* Debug */,
+				5CC3BDB22106FAE600F5687E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5CC3BCDC2106CFBE00F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionary" */ = {
+		5CC3BDB32106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionary" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5CC3BCDD2106CFBE00F5687E /* Debug */,
-				5CC3BCDE2106CFBE00F5687E /* Release */,
+				5CC3BDB42106FAE600F5687E /* Debug */,
+				5CC3BDB52106FAE600F5687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC3BDB62106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3BDB72106FAE600F5687E /* Debug */,
+				5CC3BDB82106FAE600F5687E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC3BDB92106FAE600F5687E /* Build configuration list for PBXNativeTarget "ModelToDictionaryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC3BDBA2106FAE600F5687E /* Debug */,
+				5CC3BDBB2106FAE600F5687E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5CC3BCCD2106CFBE00F5687E /* Project object */;
+	rootObject = 5CC3BD7F2106FAE500F5687E /* Project object */;
 }
