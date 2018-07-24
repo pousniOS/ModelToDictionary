@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
+static NSString  *const PropertyName=@"PropertyName";
+static NSString  *const PropertyType=@"PropertyType";
+
 @interface NSObject (Dictionary)
 /**对象转Dic**/
 -(NSDictionary *)toDictionary;

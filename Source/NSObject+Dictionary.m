@@ -9,8 +9,7 @@
 #import "NSObject+Dictionary.h"
 #import <objc/runtime.h>
 
-static NSString  *const PropertyName=@"PropertyName";
-static NSString  *const PropertyType=@"PropertyType";
+
 
 static NSString  *const type_char=@"char";
 static NSString  *const type_int=@"int";
