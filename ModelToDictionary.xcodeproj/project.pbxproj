@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5CC3BCD92106CFBE00F5687E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCD82106CFBE00F5687E /* main.m */; };
-		5CC3BCE12106D00300F5687E /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCE02106D00300F5687E /* NSObject+Dictionary.m */; };
 		5CC3BCFB2106D0E100F5687E /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF32106D0E100F5687E /* Goods.m */; };
 		5CC3BCFC2106D0E100F5687E /* SalesOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF52106D0E100F5687E /* SalesOrder.m */; };
 		5CC3BCFD2106D0E100F5687E /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF62106D0E100F5687E /* SalesOrderParts.m */; };
 		5CC3BCFE2106D0E100F5687E /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF72106D0E100F5687E /* TEST.m */; };
 		5CC3BCFF2106D0E100F5687E /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BCF82106D0E100F5687E /* SalesRefund.m */; };
+		5CC3BD032106D20200F5687E /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,8 +31,6 @@
 /* Begin PBXFileReference section */
 		5CC3BCD52106CFBE00F5687E /* ModelToDictionary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ModelToDictionary; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC3BCD82106CFBE00F5687E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5CC3BCDF2106D00300F5687E /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
-		5CC3BCE02106D00300F5687E /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		5CC3BCE22106D00B00F5687E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5CC3BCE32106D00B00F5687E /* ModelToDictionary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ModelToDictionary.podspec; sourceTree = "<group>"; };
 		5CC3BCE42106D06E00F5687E /* TestJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestJson.json; sourceTree = "<group>"; };
@@ -46,6 +44,8 @@
 		5CC3BCF82106D0E100F5687E /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
 		5CC3BCF92106D0E100F5687E /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
 		5CC3BCFA2106D0E100F5687E /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		5CC3BD012106D20200F5687E /* NSObject+Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
+		5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,7 @@
 		5CC3BCCC2106CFBE00F5687E = {
 			isa = PBXGroup;
 			children = (
+				5CC3BD002106D20200F5687E /* Source */,
 				5CC3BCF02106D0E100F5687E /* Model */,
 				5CC3BCE42106D06E00F5687E /* TestJson.json */,
 				5CC3BCE32106D00B00F5687E /* ModelToDictionary.podspec */,
@@ -82,8 +83,6 @@
 		5CC3BCD72106CFBE00F5687E /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				5CC3BCDF2106D00300F5687E /* NSObject+Dictionary.h */,
-				5CC3BCE02106D00300F5687E /* NSObject+Dictionary.m */,
 				5CC3BCD82106CFBE00F5687E /* main.m */,
 			);
 			path = ModelToDictionary;
@@ -104,6 +103,15 @@
 				5CC3BCFA2106D0E100F5687E /* Goods.h */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		5CC3BD002106D20200F5687E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5CC3BD012106D20200F5687E /* NSObject+Dictionary.h */,
+				5CC3BD022106D20200F5687E /* NSObject+Dictionary.m */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,7 +174,7 @@
 				5CC3BCFF2106D0E100F5687E /* SalesRefund.m in Sources */,
 				5CC3BCD92106CFBE00F5687E /* main.m in Sources */,
 				5CC3BCFD2106D0E100F5687E /* SalesOrderParts.m in Sources */,
-				5CC3BCE12106D00300F5687E /* NSObject+Dictionary.m in Sources */,
+				5CC3BD032106D20200F5687E /* NSObject+Dictionary.m in Sources */,
 				5CC3BCFC2106D0E100F5687E /* SalesOrder.m in Sources */,
 				5CC3BCFE2106D0E100F5687E /* TEST.m in Sources */,
 			);
