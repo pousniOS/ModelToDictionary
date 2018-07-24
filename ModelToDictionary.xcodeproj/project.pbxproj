@@ -15,7 +15,6 @@
 		5C65324320F88D2D00389100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65324220F88D2D00389100 /* main.m */; };
 		5C65324D20F88D2D00389100 /* ModelToDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65324C20F88D2D00389100 /* ModelToDictionaryTests.m */; };
 		5C65325820F88D2D00389100 /* ModelToDictionaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65325720F88D2D00389100 /* ModelToDictionaryUITests.m */; };
-		5C65326A20F8929600389100 /* NSObject+Dictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65326920F8929600389100 /* NSObject+Dictionary.m */; };
 		5C65326D20F89F2500389100 /* TestJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C65326C20F89F2500389100 /* TestJson.json */; };
 		5C65327920F89F8700389100 /* Goods.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327120F89F8600389100 /* Goods.m */; };
 		5C65327A20F89F8700389100 /* SalesOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C65327320F89F8600389100 /* SalesOrder.m */; };
@@ -60,8 +59,6 @@
 		5C65325320F88D2D00389100 /* ModelToDictionaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModelToDictionaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C65325720F88D2D00389100 /* ModelToDictionaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelToDictionaryUITests.m; sourceTree = "<group>"; };
 		5C65325920F88D2D00389100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5C65326820F8929600389100 /* NSObject+Dictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Dictionary.h"; sourceTree = "<group>"; };
-		5C65326920F8929600389100 /* NSObject+Dictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Dictionary.m"; sourceTree = "<group>"; };
 		5C65326C20F89F2500389100 /* TestJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestJson.json; sourceTree = "<group>"; };
 		5C65326F20F89F8600389100 /* SalesOrderParts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrderParts.h; sourceTree = "<group>"; };
 		5C65327020F89F8600389100 /* TEST.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TEST.h; sourceTree = "<group>"; };
@@ -127,7 +124,7 @@
 		5C65323220F88D2A00389100 /* ModelToDictionary */ = {
 			isa = PBXGroup;
 			children = (
-				5C7AB3202105C3C500035235 /* ModelToDictionary */,
+				5C7AB3202105C3C500035235 /* Source */,
 				5C65326E20F89F8600389100 /* Model */,
 				5C65326C20F89F2500389100 /* TestJson.json */,
 				5C65323320F88D2A00389100 /* AppDelegate.h */,
@@ -139,8 +136,6 @@
 				5C65323E20F88D2D00389100 /* LaunchScreen.storyboard */,
 				5C65324120F88D2D00389100 /* Info.plist */,
 				5C65324220F88D2D00389100 /* main.m */,
-				5C65326820F8929600389100 /* NSObject+Dictionary.h */,
-				5C65326920F8929600389100 /* NSObject+Dictionary.m */,
 			);
 			path = ModelToDictionary;
 			sourceTree = "<group>";
@@ -180,13 +175,13 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		5C7AB3202105C3C500035235 /* ModelToDictionary */ = {
+		5C7AB3202105C3C500035235 /* Source */ = {
 			isa = PBXGroup;
 			children = (
 				5C7AB3212105C3C500035235 /* NSObject+Dictionary.h */,
 				5C7AB3222105C3C500035235 /* NSObject+Dictionary.m */,
 			);
-			path = ModelToDictionary;
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -323,7 +318,6 @@
 			files = (
 				5C65323820F88D2A00389100 /* ViewController.m in Sources */,
 				5C65327C20F89F8700389100 /* TEST.m in Sources */,
-				5C65326A20F8929600389100 /* NSObject+Dictionary.m in Sources */,
 				5C7AB3232105C3C500035235 /* NSObject+Dictionary.m in Sources */,
 				5C65327B20F89F8700389100 /* SalesOrderParts.m in Sources */,
 				5C65327920F89F8700389100 /* Goods.m in Sources */,
