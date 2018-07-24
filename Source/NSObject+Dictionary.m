@@ -11,6 +11,7 @@
 
 
 
+
 static NSString  *const type_char=@"char";
 static NSString  *const type_int=@"int";
 static NSString  *const type_short=@"short";
@@ -89,6 +90,7 @@ static NSDictionary *typeDic=nil;
             NSString *propertyType=obj[PropertyType];
             id value=[self valueForKey:propertyName];
             if ([self  isCNumberType:propertyType]||
+                [self  isCFNumberType:propertyType]||
                 [self isStringType:propertyType]||
                 [self isValueType:propertyType]) {
                 [self setDic:mutableDictionary andValue:value andKey:propertyName];
@@ -192,6 +194,15 @@ static NSDictionary *typeDic=nil;
         return NO;
     }
 }
+-(BOOL)isCFNumberType:(NSString *)type{
+    if ([type isEqualToString:type_float]||
+        [type isEqualToString:type_double]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
+
 -(BOOL)isArrayType:(NSString *)type{
     if ([type isEqualToString:type_NSArray]||
         [type isEqualToString:type_NSMutableArray]){
@@ -200,6 +211,7 @@ static NSDictionary *typeDic=nil;
         return NO;
     }
 }
+
 -(BOOL)isDictionaryType:(NSString *)type{
     if ([type isEqualToString:type_NSDictionary]||
         [type isEqualToString:type_NSMutalbleDictionary]){
@@ -208,6 +220,7 @@ static NSDictionary *typeDic=nil;
         return NO;
     }
 }
+
 -(BOOL)isStringType:(NSString *)type{
     if ([type isEqualToString:type_NSString]||
         [type isEqualToString:type_NSMutalbleString]){
