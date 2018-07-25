@@ -25,10 +25,10 @@ static NSString  *const PropertyType=@"PropertyType";
  **/
 -(NSDictionary*)YYMTD_ResetKeyDictionary;
 
--(BOOL)isCNumberType:(NSString *)type;
--(BOOL)isCFNumberType:(NSString *)type;
--(BOOL)isArrayType:(NSString *)type;
--(BOOL)isDictionaryType:(NSString *)type;
--(BOOL)isStringType:(NSString *)type;
--(BOOL)isValueType:(NSString *)type;
++(BOOL)isCNumberType:(NSString *)type;
++(BOOL)isCFNumberType:(NSString *)type;
++(BOOL)isArrayType:(NSString *)type;
++(BOOL)isDictionaryType:(NSString *)type;
++(BOOL)isStringType:(NSString *)type;
++(BOOL)isValueType:(NSString *)type;
 @end

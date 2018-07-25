@@ -20,7 +20,7 @@
     [super viewDidLoad];
     
     //给test对象赋值（注意填写正确的文件路径）
-    NSString *str=[NSString stringWithContentsOfFile:@"/Users/POSUN/Documents/ModelToDictionary/ModelToDictionary/TestJson.json" encoding:NSUTF8StringEncoding error:nil];
+    NSString *str=[NSString stringWithContentsOfFile:@"/Users/POSUN/Documents/ModelToDictionary/TestJson.json" encoding:NSUTF8StringEncoding error:nil];
     
     if (str == nil){return ;}
     NSData *jsonData = [str dataUsingEncoding:NSUTF8StringEncoding];
