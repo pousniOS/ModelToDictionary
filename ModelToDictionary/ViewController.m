@@ -34,7 +34,6 @@
     //将test对象转换传NSDictionary对象
     NSDictionary *testDic=[test toDictionary];
     NSLog(@"%@",testDic);
-    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
