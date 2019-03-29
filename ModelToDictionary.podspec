@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ModelToDictionary"
-  s.version      = "0.1.3"
+  s.version      = "1.0.2"
   s.summary      = "A short description of ModelToDictionary."
 
   # This description is used to generate tags and improve search results.

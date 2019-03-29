@@ -56,7 +56,7 @@ static NSDictionary *typeDic=nil;
               @"B":type_BOOL,
               @"v":type_void,
               @"*":type_char_X,
-              @":":type_char_SEL,
+              @"^:":type_char_SEL,
               @"@":type_char_id,
               @"#":type_char_Class};
 }
@@ -150,30 +150,16 @@ static NSDictionary *typeDic=nil;
     return [NSString stringWithUTF8String:property_getName(property)];
 }
 -(NSString *)propertyType:(objc_property_t)property{
-    NSString *property_data_type = nil;
     const char * property_attr = property_getAttributes(property);
-    if (property_attr[1] == '@') {
-        char * occurs1 =  strchr(property_attr, '@');
-        char * occurs2 =  strrchr(occurs1, '"');
-        char dest_str[40]= {0};
-        strncpy(dest_str, occurs1, occurs2 - occurs1);
-        char * realType = (char *)malloc(sizeof(char) * 50);
-        int i = 0, j = 0, len = (int)strlen(dest_str);
-        for (; i < len; i++) {
-            if ((dest_str[i] >= 'a' && dest_str[i] <= 'z') ||
-                (dest_str[i] >= 'A' && dest_str[i] <= 'Z')) {
-                realType[j++] = dest_str[i];
-            }
-        }
-        property_data_type = [NSString stringWithUTF8String:realType];
-        free(realType);
-    }else {
-        char t = property_attr[1];
-        property_data_type=typeDic[[NSString stringWithUTF8String:&t]];
+    NSString *attr_Str=[NSString stringWithUTF8String:property_attr];
+    NSString *typeStr =[[attr_Str componentsSeparatedByString:@","] firstObject];
+    typeStr=[typeStr substringFromIndex:1];
+    if ([typeStr containsString:@"@"]) {
+        typeStr=[typeStr stringByReplacingOccurrencesOfString:@"@" withString:@""];
+        typeStr=[typeStr stringByReplacingOccurrencesOfString:@"\"" withString:@""];
     }
-    return property_data_type;
+    return typeStr;
 }
-
 +(BOOL)isCFNumberType:(NSString *)type{
     if ([type isEqualToString:type_float]||
         [type isEqualToString:type_double]) {

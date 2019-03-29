@@ -24,6 +24,7 @@
 		5CC3BDD32106FB6D00F5687E /* SalesOrderParts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCC2106FB6D00F5687E /* SalesOrderParts.m */; };
 		5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCD2106FB6D00F5687E /* TEST.m */; };
 		5CC3BDD52106FB6D00F5687E /* SalesRefund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */; };
+		5CF631DD224E08AA007100B2 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF631DC224E08AA007100B2 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,8 @@
 		5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SalesRefund.m; sourceTree = "<group>"; };
 		5CC3BDCF2106FB6D00F5687E /* SalesOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SalesOrder.h; sourceTree = "<group>"; };
 		5CC3BDD02106FB6D00F5687E /* Goods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Goods.h; sourceTree = "<group>"; };
+		5CF631DB224E08AA007100B2 /* TestModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		5CF631DC224E08AA007100B2 /* TestModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +186,8 @@
 				5CC3BDCE2106FB6D00F5687E /* SalesRefund.m */,
 				5CC3BDCF2106FB6D00F5687E /* SalesOrder.h */,
 				5CC3BDD02106FB6D00F5687E /* Goods.h */,
+				5CF631DB224E08AA007100B2 /* TestModel.h */,
+				5CF631DC224E08AA007100B2 /* TestModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -321,6 +326,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */,
+				5CF631DD224E08AA007100B2 /* TestModel.m in Sources */,
 				5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */,
 				5CC3BDC32106FB6300F5687E /* NSObject+Dictionary.m in Sources */,
 				5CC3BDD32106FB6D00F5687E /* SalesOrderParts.m in Sources */,
