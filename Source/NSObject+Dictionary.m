@@ -8,10 +8,6 @@
 
 #import "NSObject+Dictionary.h"
 #import <objc/runtime.h>
-
-
-
-
 static NSString  *const type_char=@"char";
 static NSString  *const type_int=@"int";
 static NSString  *const type_short=@"short";
@@ -219,7 +215,6 @@ static NSDictionary *typeDic=nil;
         return NO;
     }
 }
-
 +(BOOL)isStringType:(NSString *)type{
     if ([type isEqualToString:type_NSString]||
         [type isEqualToString:type_NSMutalbleString]){

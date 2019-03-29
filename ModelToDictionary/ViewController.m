@@ -30,7 +30,7 @@
                                                           error:&error];
     TEST *test=[[TEST alloc] init];
     [test setValuesForKeysWithDictionary:dic];
-    
+
     //将test对象转换传NSDictionary对象
     NSDictionary *testDic=[test toDictionary];
     NSLog(@"%@",testDic);
@@ -42,6 +42,9 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 
 @end
