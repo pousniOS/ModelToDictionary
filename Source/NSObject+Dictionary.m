@@ -157,6 +157,8 @@ static NSDictionary *typeDic=nil;
     if ([typeStr containsString:@"@"]) {
         typeStr=[typeStr stringByReplacingOccurrencesOfString:@"@" withString:@""];
         typeStr=[typeStr stringByReplacingOccurrencesOfString:@"\"" withString:@""];
+    }else{
+        typeStr=typeDic[typeStr];
     }
     return typeStr;
 }
