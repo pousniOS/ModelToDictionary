@@ -92,9 +92,11 @@ static NSDictionary *typeDic=nil;
                 [self setDic:mutableDictionary andValue:value andKey:propertyName];
             }
             else if ([NSObject isArrayType:propertyType]){
+                NSMutableArray *array=[[NSMutableArray alloc] init];
                 [value enumerateObjectsUsingBlock:^(id  _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
-                    [self setDic:mutableDictionary andValue:[obj toDictionary] andKey:propertyName];
+                    [array addObject:[obj toDictionary]];
                 }];
+                [self setDic:mutableDictionary andValue:array andKey:propertyName];
             }else if ([NSObject isDictionaryType:propertyType]){
                 [self setDic:mutableDictionary andValue:[value toDictionary] andKey:propertyName];
             }

@@ -11,6 +11,7 @@
 #import "NSObject+Dictionary.h"
 #import <objc/runtime.h>
 #import "TestModel.h"
+#import "StudentModel.h"
 @interface ViewController ()
 
 @end
@@ -21,17 +22,26 @@
     [super viewDidLoad];
     
     
-    unsigned int propsCount;
-    objc_property_t *props = class_copyPropertyList([TestModel class], &propsCount);
-    for(int i = 0;i < propsCount; i++){
-        objc_property_t  prop = props[i];
-        const char * property_attr = property_getAttributes(prop);
-        const char * name=property_getName(prop);
-        printf("%s---%s\n",name,property_attr);
-
-    }
-    free(props);
-
+    
+    StudentModel *std=[[StudentModel alloc] init];
+    std.name=@"杨越";
+    std.stdID=@"000000";
+    std.sex=NO;
+    std.cls=@"六年级";
+    GradeModel *gradModel=[[GradeModel alloc] init];
+    gradModel.ID=@"0";
+    gradModel.name=@"数学";
+    gradModel.fraction=99;
+    gradModel.remark=@"考得不错再接再厉";
+    
+    GradeModel *gradModel1=[[GradeModel alloc] init];
+    gradModel1.ID=@"1";
+    gradModel1.name=@"语文";
+    gradModel1.fraction=60;
+    gradModel1.remark=@"要加油哦";
+    std.transcript=[@[gradModel,gradModel1] mutableCopy];
+    
+    NSLog(@"%@",[std toDictionary]);
     
     
 //    //给test对象赋值（注意填写正确的文件路径）
@@ -50,6 +60,9 @@
 //    NSDictionary *testDic=[test toDictionary];
 //    NSLog(@"%@",testDic);
 //    // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
 }
 
 
