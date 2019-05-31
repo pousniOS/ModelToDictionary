@@ -28,19 +28,19 @@ static NSString  *const type_char_Class=@"Class";
 
 static NSString *const type_NSArray=@"NSArray";
 static NSString *const type_NSMutableArray=@"NSMutableArray";
-static NSString *const type_NSArray0=@"NSArray0";
-static NSString *const type_NSArrayM=@"NSArrayM";
+static NSString *const type_NSArray0=@"__NSArray0";
+static NSString *const type_NSArrayM=@"__NSArrayM";
 
 static NSString *const type_NSDictionary=@"NSDictionary";
 static NSString *const type_NSMutalbleDictionary=@"NSMutalbleDictionary";
-static NSString *const type_NSDictionary0=@"NSDictionary0";
-static NSString *const type_NSDictionaryM=@"NSDictionaryM";
+static NSString *const type_NSDictionary0=@"__NSDictionary0";
+static NSString *const type_NSDictionaryM=@"__NSDictionaryM";
 
 
 static NSString *const type_NSString=@"NSString";
 static NSString *const type_NSMutalbleString=@"NSMutalbleString";
-static NSString *const type_NSCFConstantString=@"NSCFConstantString";
-static NSString *const type_NSCFString=@"NSCFString";
+static NSString *const type_NSCFConstantString=@"__NSCFConstantString";
+static NSString *const type_NSCFString=@"__NSCFString";
 
 
 
