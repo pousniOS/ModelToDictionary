@@ -28,11 +28,28 @@ static NSString  *const type_char_Class=@"Class";
 
 static NSString *const type_NSArray=@"NSArray";
 static NSString *const type_NSMutableArray=@"NSMutableArray";
-static NSString *const type_NSObject=@"NSObject";
+static NSString *const type_NSArray0=@"NSArray0";
+static NSString *const type_NSArrayM=@"NSArrayM";
+
 static NSString *const type_NSDictionary=@"NSDictionary";
 static NSString *const type_NSMutalbleDictionary=@"NSMutalbleDictionary";
+static NSString *const type_NSDictionary0=@"NSDictionary0";
+static NSString *const type_NSDictionaryM=@"NSDictionaryM";
+
+
 static NSString *const type_NSString=@"NSString";
 static NSString *const type_NSMutalbleString=@"NSMutalbleString";
+static NSString *const type_NSCFConstantString=@"NSCFConstantString";
+static NSString *const type_NSCFString=@"NSCFString";
+
+
+
+
+
+
+static NSString *const type_NSObject=@"NSObject";
+
+
 static NSString *const type_NSValue=@"NSValue";
 static NSString *const type_NSNumber=@"NSNumber";
 
@@ -190,7 +207,9 @@ static NSDictionary *typeDic=nil;
 
 +(BOOL)isArrayType:(NSString *)type{
     if ([type isEqualToString:type_NSArray]||
-        [type isEqualToString:type_NSMutableArray]){
+        [type isEqualToString:type_NSMutableArray]||
+        [type isEqualToString:type_NSArray0]||
+        [type isEqualToString:type_NSArrayM]){
         return YES;
     }else{
         return NO;
@@ -199,7 +218,9 @@ static NSDictionary *typeDic=nil;
 
 +(BOOL)isDictionaryType:(NSString *)type{
     if ([type isEqualToString:type_NSDictionary]||
-        [type isEqualToString:type_NSMutalbleDictionary]){
+        [type isEqualToString:type_NSMutalbleDictionary]||
+        [type isEqualToString:type_NSDictionary0]||
+        [type isEqualToString:type_NSDictionaryM]){
         return YES;
     }else{
         return NO;
@@ -207,7 +228,9 @@ static NSDictionary *typeDic=nil;
 }
 +(BOOL)isStringType:(NSString *)type{
     if ([type isEqualToString:type_NSString]||
-        [type isEqualToString:type_NSMutalbleString]){
+        [type isEqualToString:type_NSMutalbleString]||
+        [type isEqualToString:type_NSCFConstantString]||
+        [type isEqualToString:type_NSCFString]){
         return YES;
     }else{
         return NO;

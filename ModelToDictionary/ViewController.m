@@ -12,6 +12,7 @@
 #import <objc/runtime.h>
 #import "TestModel.h"
 #import "StudentModel.h"
+
 @interface ViewController ()
 
 @end
@@ -21,7 +22,23 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    [self outPut:[NSString new]];
+    [self outPut:[NSString class]];
     
+    [self outPut:[NSMutableString new]];
+    [self outPut:[NSMutableString class]];
+    
+    [self outPut:[NSDictionary new]];
+    [self outPut:[NSDictionary class]];
+
+    [self outPut:[NSMutableDictionary new]];
+    [self outPut:[NSMutableDictionary class]];
+    
+    [self outPut:[NSArray new]];
+    [self outPut:[NSArray class]];
+    
+    [self outPut:[NSMutableArray new]];
+    [self outPut:[NSMutableArray class]];
     
     StudentModel *std=[[StudentModel alloc] init];
     std.name=@"杨越";
@@ -64,6 +81,12 @@
     
     
 }
+
+-(void)outPut:(id)obj{
+    NSLog(@"%@",NSStringFromClass([obj class]));
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {
