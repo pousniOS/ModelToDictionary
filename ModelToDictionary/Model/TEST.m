@@ -14,10 +14,10 @@
         [super setValue:value forKey:key];
     }
 }
--(NSSet *)YYMTD_UnconversionProperty{
-    NSSet *set=[[NSSet alloc] initWithObjects:@"salesRefund", nil];
-    return set;
-}
+//-(NSSet *)YYMTD_UnconversionProperty{
+//    NSSet *set=[[NSSet alloc] initWithObjects:@"salesRefund", nil];
+//    return set;
+//}
 @end
 
 
