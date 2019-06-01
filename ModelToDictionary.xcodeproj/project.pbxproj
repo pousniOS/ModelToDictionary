@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04FC177322A116D500B6DF56 /* GradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC176F22A116D400B6DF56 /* GradeModel.m */; };
+		04FC177422A116D500B6DF56 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC177222A116D500B6DF56 /* StudentModel.m */; };
 		5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8B2106FAE500F5687E /* AppDelegate.m */; };
 		5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8E2106FAE500F5687E /* ViewController.m */; };
 		5CC3BD922106FAE500F5687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD902106FAE500F5687E /* Main.storyboard */; };
@@ -45,6 +47,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04FC176F22A116D400B6DF56 /* GradeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeModel.m; sourceTree = "<group>"; };
+		04FC177022A116D400B6DF56 /* GradeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeModel.h; sourceTree = "<group>"; };
+		04FC177122A116D400B6DF56 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
+		04FC177222A116D500B6DF56 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
 		5CC3BD872106FAE500F5687E /* ModelToDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelToDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC3BD8A2106FAE500F5687E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CC3BD8B2106FAE500F5687E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -176,6 +182,10 @@
 		5CC3BDC62106FB6D00F5687E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				04FC177022A116D400B6DF56 /* GradeModel.h */,
+				04FC176F22A116D400B6DF56 /* GradeModel.m */,
+				04FC177122A116D400B6DF56 /* StudentModel.h */,
+				04FC177222A116D500B6DF56 /* StudentModel.m */,
 				5CC3BDC72106FB6D00F5687E /* SalesOrderParts.h */,
 				5CC3BDC82106FB6D00F5687E /* TEST.h */,
 				5CC3BDC92106FB6D00F5687E /* Goods.m */,
@@ -326,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */,
+				04FC177422A116D500B6DF56 /* StudentModel.m in Sources */,
 				5CF631DD224E08AA007100B2 /* TestModel.m in Sources */,
 				5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */,
 				5CC3BDC32106FB6300F5687E /* NSObject+Dictionary.m in Sources */,
@@ -333,6 +344,7 @@
 				5CC3BDD12106FB6D00F5687E /* Goods.m in Sources */,
 				5CC3BD9A2106FAE600F5687E /* main.m in Sources */,
 				5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */,
+				04FC177322A116D500B6DF56 /* GradeModel.m in Sources */,
 				5CC3BDD22106FB6D00F5687E /* SalesOrder.m in Sources */,
 				5CC3BDD52106FB6D00F5687E /* SalesRefund.m in Sources */,
 			);
