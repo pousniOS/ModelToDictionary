@@ -166,6 +166,35 @@ static NSDictionary *typeDic=nil;
         return NO;
     }
 }
+
++(BOOL)isArrayType:(NSString *)type{
+    if ([NSClassFromString(type) isKindOfClass:[NSArray class]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
++(BOOL)isDictionaryType:(NSString *)type{
+    if ([NSClassFromString(type) isKindOfClass:[NSDictionary class]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
++(BOOL)isStringType:(NSString *)type{
+    if ([NSClassFromString(type) isKindOfClass:[NSString class]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
++(BOOL)isValueType:(NSString *)type{
+    if ([NSClassFromString(type) isKindOfClass:[NSValue class]]) {
+        return YES;
+    }else{
+        return NO;
+    }
+}
 -(NSSet*)YYMTD_UnconversionProperty{
     return nil;
 }

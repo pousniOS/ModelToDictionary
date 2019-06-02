@@ -28,4 +28,8 @@ static NSString  *const PropertyType=@"PropertyType";
 -(NSArray *)filterProperty:(NSSet *)set;
 +(BOOL)isCFNumberType:(NSString *)type;
 +(BOOL)isCNumberType:(NSString *)type;
++(BOOL)isArrayType:(NSString *)type;
++(BOOL)isDictionaryType:(NSString *)type;
++(BOOL)isStringType:(NSString *)type;
++(BOOL)isValueType:(NSString *)type;
 @end
