@@ -7,7 +7,8 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "TestToDicModel.h"
+#import "NSObject+Dictionary.h"
 @interface ModelToDictionaryTests : XCTestCase
 
 @end
@@ -22,6 +23,12 @@
 - (void)tearDown {
     // Put teardown code here. This method is called after the invocation of each test method in the class.
     [super tearDown];
+}
+
+-(void)testToDic{
+    TestToDicModel *model=[[TestToDicModel alloc] initTest];
+    id object =[model toDictionary];
+    NSLog(@"%@",object);
 }
 
 - (void)testExample {

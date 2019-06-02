@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		04FC177322A116D500B6DF56 /* GradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC176F22A116D400B6DF56 /* GradeModel.m */; };
 		04FC177422A116D500B6DF56 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC177222A116D500B6DF56 /* StudentModel.m */; };
+		1895E60A22A376620014ABF2 /* TestToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60922A376620014ABF2 /* TestToDicModel.m */; };
+		1895E60D22A379B50014ABF2 /* TestSubToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60C22A379B50014ABF2 /* TestSubToDicModel.m */; };
+		1895E61022A37A240014ABF2 /* TestArrayToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60F22A37A240014ABF2 /* TestArrayToDicModel.m */; };
 		5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8B2106FAE500F5687E /* AppDelegate.m */; };
 		5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8E2106FAE500F5687E /* ViewController.m */; };
 		5CC3BD922106FAE500F5687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD902106FAE500F5687E /* Main.storyboard */; };
@@ -51,6 +54,12 @@
 		04FC177022A116D400B6DF56 /* GradeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeModel.h; sourceTree = "<group>"; };
 		04FC177122A116D400B6DF56 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
 		04FC177222A116D500B6DF56 /* StudentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentModel.m; sourceTree = "<group>"; };
+		1895E60822A376620014ABF2 /* TestToDicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestToDicModel.h; sourceTree = "<group>"; };
+		1895E60922A376620014ABF2 /* TestToDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestToDicModel.m; sourceTree = "<group>"; };
+		1895E60B22A379B50014ABF2 /* TestSubToDicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestSubToDicModel.h; sourceTree = "<group>"; };
+		1895E60C22A379B50014ABF2 /* TestSubToDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubToDicModel.m; sourceTree = "<group>"; };
+		1895E60E22A37A240014ABF2 /* TestArrayToDicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestArrayToDicModel.h; sourceTree = "<group>"; };
+		1895E60F22A37A240014ABF2 /* TestArrayToDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestArrayToDicModel.m; sourceTree = "<group>"; };
 		5CC3BD872106FAE500F5687E /* ModelToDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelToDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC3BD8A2106FAE500F5687E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CC3BD8B2106FAE500F5687E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -157,6 +166,12 @@
 			children = (
 				5CC3BDA32106FAE600F5687E /* ModelToDictionaryTests.m */,
 				5CC3BDA52106FAE600F5687E /* Info.plist */,
+				1895E60822A376620014ABF2 /* TestToDicModel.h */,
+				1895E60922A376620014ABF2 /* TestToDicModel.m */,
+				1895E60B22A379B50014ABF2 /* TestSubToDicModel.h */,
+				1895E60C22A379B50014ABF2 /* TestSubToDicModel.m */,
+				1895E60E22A37A240014ABF2 /* TestArrayToDicModel.h */,
+				1895E60F22A37A240014ABF2 /* TestArrayToDicModel.m */,
 			);
 			path = ModelToDictionaryTests;
 			sourceTree = "<group>";
@@ -354,7 +369,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1895E60D22A379B50014ABF2 /* TestSubToDicModel.m in Sources */,
 				5CC3BDA42106FAE600F5687E /* ModelToDictionaryTests.m in Sources */,
+				1895E60A22A376620014ABF2 /* TestToDicModel.m in Sources */,
+				1895E61022A37A240014ABF2 /* TestArrayToDicModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
