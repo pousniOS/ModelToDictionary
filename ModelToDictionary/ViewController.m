@@ -11,16 +11,76 @@
 #import "NSObject+Dictionary.h"
 #import "TestModel.h"
 #import "StudentModel.h"
-
+#import "InTableTask.h"
+#import "InTableEvent.h"
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
 
-//- (void)viewDidLoad {
-//    [super viewDidLoad];
-//
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    dispatch_queue_t _queue_t = dispatch_queue_create("test", DISPATCH_QUEUE_SERIAL);
+    dispatch_sync(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"1";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    dispatch_async(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"2";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    
+    _queue_t = dispatch_queue_create("test1", DISPATCH_QUEUE_CONCURRENT);
+    dispatch_sync(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"3";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    dispatch_async(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"4";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    dispatch_async(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"5";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    dispatch_async(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"6";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    dispatch_async(_queue_t, ^{
+        InTableEvent *event=[[InTableEvent alloc] init];
+        event.ID=@"7";
+        NSLog(@"add:%@",event.ID);
+        [[InTableTask share] pushTask:event];
+    });
+    
+    InTableEvent *event=[[InTableEvent alloc] init];
+    event.ID=@"8";
+    NSLog(@"add:%@",event.ID);
+    [[InTableTask share] pushTask:event];
+    
+    
+
+  
+    
+    
+
+    
+
 //
 //    [self outPut:[NSString new]];
 //    [self outPut:[NSString class]];
@@ -78,13 +138,13 @@
 ////    //将test对象转换传NSDictionary对象
 //    NSDictionary *testDic=[test toDictionary];
 //    NSLog(@"%@",testDic);
-////    NSDictionary *testDic=[test toDictionary];
-////    NSLog(@"%@",testDic);
-////    // Do any additional setup after loading the view, typically from a nib.
-//
-//
-//
-//}
+//    NSDictionary *testDic=[test toDictionary];
+//    NSLog(@"%@",testDic);
+//    // Do any additional setup after loading the view, typically from a nib.
+
+
+
+}
 
 //-(void)outPut:(id)obj{
 //    NSLog(@"%@",NSStringFromClass([obj class]));

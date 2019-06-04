@@ -12,6 +12,8 @@
 		1895E60A22A376620014ABF2 /* TestToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60922A376620014ABF2 /* TestToDicModel.m */; };
 		1895E60D22A379B50014ABF2 /* TestSubToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60C22A379B50014ABF2 /* TestSubToDicModel.m */; };
 		1895E61022A37A240014ABF2 /* TestArrayToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60F22A37A240014ABF2 /* TestArrayToDicModel.m */; };
+		1897291222A6CEA900B700C8 /* InTableTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897291122A6CEA900B700C8 /* InTableTask.m */; };
+		1897291522A6D2A600B700C8 /* InTableEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897291422A6D2A600B700C8 /* InTableEvent.m */; };
 		5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8B2106FAE500F5687E /* AppDelegate.m */; };
 		5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC3BD8E2106FAE500F5687E /* ViewController.m */; };
 		5CC3BD922106FAE500F5687E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC3BD902106FAE500F5687E /* Main.storyboard */; };
@@ -60,6 +62,10 @@
 		1895E60C22A379B50014ABF2 /* TestSubToDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestSubToDicModel.m; sourceTree = "<group>"; };
 		1895E60E22A37A240014ABF2 /* TestArrayToDicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestArrayToDicModel.h; sourceTree = "<group>"; };
 		1895E60F22A37A240014ABF2 /* TestArrayToDicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestArrayToDicModel.m; sourceTree = "<group>"; };
+		1897291022A6CEA900B700C8 /* InTableTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InTableTask.h; sourceTree = "<group>"; };
+		1897291122A6CEA900B700C8 /* InTableTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InTableTask.m; sourceTree = "<group>"; };
+		1897291322A6D2A600B700C8 /* InTableEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InTableEvent.h; sourceTree = "<group>"; };
+		1897291422A6D2A600B700C8 /* InTableEvent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InTableEvent.m; sourceTree = "<group>"; };
 		5CC3BD872106FAE500F5687E /* ModelToDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModelToDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC3BD8A2106FAE500F5687E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5CC3BD8B2106FAE500F5687E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -213,6 +219,10 @@
 				5CC3BDD02106FB6D00F5687E /* Goods.h */,
 				5CF631DB224E08AA007100B2 /* TestModel.h */,
 				5CF631DC224E08AA007100B2 /* TestModel.m */,
+				1897291022A6CEA900B700C8 /* InTableTask.h */,
+				1897291122A6CEA900B700C8 /* InTableTask.m */,
+				1897291322A6D2A600B700C8 /* InTableEvent.h */,
+				1897291422A6D2A600B700C8 /* InTableEvent.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -352,12 +362,14 @@
 			files = (
 				5CC3BD8F2106FAE500F5687E /* ViewController.m in Sources */,
 				04FC177422A116D500B6DF56 /* StudentModel.m in Sources */,
+				1897291522A6D2A600B700C8 /* InTableEvent.m in Sources */,
 				5CF631DD224E08AA007100B2 /* TestModel.m in Sources */,
 				5CC3BDD42106FB6D00F5687E /* TEST.m in Sources */,
 				5CC3BDC32106FB6300F5687E /* NSObject+Dictionary.m in Sources */,
 				5CC3BDD32106FB6D00F5687E /* SalesOrderParts.m in Sources */,
 				5CC3BDD12106FB6D00F5687E /* Goods.m in Sources */,
 				5CC3BD9A2106FAE600F5687E /* main.m in Sources */,
+				1897291222A6CEA900B700C8 /* InTableTask.m in Sources */,
 				5CC3BD8C2106FAE500F5687E /* AppDelegate.m in Sources */,
 				04FC177322A116D500B6DF56 /* GradeModel.m in Sources */,
 				5CC3BDD22106FB6D00F5687E /* SalesOrder.m in Sources */,
