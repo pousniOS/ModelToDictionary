@@ -168,28 +168,28 @@ static NSDictionary *typeDic=nil;
 }
 
 +(BOOL)isArrayType:(NSString *)type{
-    if ([NSClassFromString(type) isKindOfClass:[NSArray class]]) {
+    if ([[NSClassFromString(type) new] isKindOfClass:[NSArray class]]) {
         return YES;
     }else{
         return NO;
     }
 }
 +(BOOL)isDictionaryType:(NSString *)type{
-    if ([NSClassFromString(type) isKindOfClass:[NSDictionary class]]) {
+    if ([[NSClassFromString(type) new] isKindOfClass:[NSDictionary class]]) {
         return YES;
     }else{
         return NO;
     }
 }
 +(BOOL)isStringType:(NSString *)type{
-    if ([NSClassFromString(type) isKindOfClass:[NSString class]]) {
+    if ([[NSClassFromString(type) new] isKindOfClass:[NSString class]]) {
         return YES;
     }else{
         return NO;
     }
 }
 +(BOOL)isValueType:(NSString *)type{
-    if ([NSClassFromString(type) isKindOfClass:[NSValue class]]) {
+    if ([[NSClassFromString(type) new] isKindOfClass:[NSValue class]]) {
         return YES;
     }else{
         return NO;
