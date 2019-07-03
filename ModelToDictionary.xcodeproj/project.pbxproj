@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0426B92922CC4387002AC603 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 0426B92822CC4386002AC603 /* index.html */; };
 		04FC177322A116D500B6DF56 /* GradeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC176F22A116D400B6DF56 /* GradeModel.m */; };
 		04FC177422A116D500B6DF56 /* StudentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04FC177222A116D500B6DF56 /* StudentModel.m */; };
 		1895E60A22A376620014ABF2 /* TestToDicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1895E60922A376620014ABF2 /* TestToDicModel.m */; };
@@ -52,6 +53,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0426B92822CC4386002AC603 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		04FC176F22A116D400B6DF56 /* GradeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradeModel.m; sourceTree = "<group>"; };
 		04FC177022A116D400B6DF56 /* GradeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradeModel.h; sourceTree = "<group>"; };
 		04FC177122A116D400B6DF56 /* StudentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentModel.h; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		5CC3BD7E2106FAE500F5687E = {
 			isa = PBXGroup;
 			children = (
+				0426B92822CC4386002AC603 /* index.html */,
 				5CC3BDC12106FB6200F5687E /* ModelToDictionary.podspec */,
 				5CC3BDC02106FB6200F5687E /* README.md */,
 				5CC3BDBC2106FB6200F5687E /* TestJson.json */,
@@ -330,6 +333,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0426B92922CC4387002AC603 /* index.html in Resources */,
 				5CC3BD972106FAE600F5687E /* LaunchScreen.storyboard in Resources */,
 				5CC3BD942106FAE600F5687E /* Assets.xcassets in Resources */,
 				5CC3BDC42106FB6300F5687E /* README.md in Resources */,
